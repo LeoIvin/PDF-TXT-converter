@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 input_folder = r"C:\Users\HP\Documents\all txt" # specify your input directory
-output_folder = r"C:\Users\HP\Documents\cleaned txt" # specify your outut directory
+output_folder = r"C:\Users\HP\Documents\cleaned txt" # specify your output directory
 
 os.makedirs(output_folder, exist_ok=True)
 
