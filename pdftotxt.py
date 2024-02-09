@@ -2,8 +2,8 @@ import os
 from PyPDF2 import PdfReader
 
 # Specify the directories
-source_dir = r"C:\Users\HP\Documents\all html" # specify your directory
-target_dir = r"C:\Users\HP\Documents\all pdf"  # specify your directory
+source_dir = r"C:\Users\HP\Documents\all html" # specify your source directory
+target_dir = r"C:\Users\HP\Documents\all pdf"  # specify your target directory
 
 # Create the target directory if it doesn't exist
 if not os.path.exists(target_dir):

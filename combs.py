@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 
-# Specify your directories
+# Specify your source and target directories
 source_dir = input("Enter Directory: ")
 target_dir = input("Enter Directory: ")
 

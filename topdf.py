@@ -1,7 +1,7 @@
 import os
 from pdfdocument.document import PDFDocument
 
-# Get the source and target directories from the user
+# Specify the source and target directories
 source_dir = input("Enter the source directory: ")
 target_dir = input("Enter the target directory: ")
 
